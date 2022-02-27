@@ -1,0 +1,28 @@
+{
+  "name": "arbitrum-nft-minter",
+  "version": "1.0.0",
+  "description": "Generalized NFT Minter contract on Arbitrum.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svdorn/arbitrum-nft-minter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svdorn/arbitrum-nft-minter/issues"
+  },
+  "homepage": "https://github.com/svdorn/arbitrum-nft-minter#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0-solc-0.7",
+    "dotenv": "^16.0.0"
+  }
+}
